@@ -1,0 +1,58 @@
+.tumbnail-img {
+  height: 600px;
+}
+
+.tumbnail-img > img {
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+
+.tumb-container {
+  position: absolute;
+  padding: 5rem;
+  bottom: 0px;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: flex-start;
+  background-color: transparent;
+  background-image: linear-gradient(rgb(0, 0, 0, 0), rgb(0, 0, 0, 1));
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.tumbnail-container :hover {
+  opacity: 1;
+}
+
+.tumb-title {
+  font-weight: 900;
+  font-size: 4rem;
+  margin-bottom: 0.4rem;
+  text-align: left;
+  background-color: transparent;
+}
+
+.tumb-date {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+.tumb-rate {
+  margin-left: 3rem;
+  background-color: transparent;
+}
+
+.tumb-desc {
+  font-style: italic;
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+  display: flex;
+  text-align: left;
+  width: 50%;
+  background-color: transparent;
+}
